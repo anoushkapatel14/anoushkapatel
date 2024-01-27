@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.main {
+  background-color: $background-pink;
+  padding: $mobile-padding;
+  color: $main-text;
+  text-align: center;
+
+  &__job-main {
+    text-decoration: underline $primary-pink;
+    text-decoration-thickness: 0.2rem;
+
+    // color: $primary-pink;
+  }
+
+//   &__job-secondary {
+//     // color: $secondary ;
+//   }
+}
