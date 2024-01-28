@@ -1,6 +1,7 @@
-import "./AboutPage.scss";
+import "./AboutSection.scss";
 
-export default function AboutPage() {
+
+export default function AboutSection() {
   return (
     <>
       <section className="about">
