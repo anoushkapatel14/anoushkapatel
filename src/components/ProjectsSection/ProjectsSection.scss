@@ -1,2 +1,17 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+.projects {
+
+    &__title {
+        text-decoration: underline $primary-pink;
+    }
+
+    &__subheading {
+        text-align: left;
+    }
+
+    &__img {
+        width: 90vw;
+    }
+}
