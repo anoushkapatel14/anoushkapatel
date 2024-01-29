@@ -3,19 +3,39 @@
 @use "../../styles/partials/typography" as *;
 
 .main {
-  background-color: $background-pink;
+  background-color: $white;
   padding: $mobile-padding;
-  color: $main-text;
+  color: $black;
   text-align: center;
 
-  &__job-main {
-    text-decoration: underline $primary-pink;
-    text-decoration-thickness: 0.2rem;
 
-    // color: $primary-pink;
+  &__title {
+    font-size: 2.7rem;
+    margin-bottom: 0rem;
+    margin-top: 3rem;
   }
 
-//   &__job-secondary {
-//     // color: $secondary ;
-//   }
+
+  &__accent {
+    color: $primary-pink;
+  }
+
+  &__job-main {
+    margin-top: 0.8rem;
+    margin-bottom: 0rem;
+    text-decoration: underline $primary-pink;
+    text-decoration-thickness: 0.2rem;
+    font-size: 2rem;
+
+  }
+
+  &__and {
+    margin: 0;
+  }
+
+  &__job-secondary {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+
+  }
 }

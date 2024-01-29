@@ -2,16 +2,45 @@
 @use "../../styles/partials/mixins" as *;
 
 .projects {
+  &__title {
+    text-decoration: underline $primary-pink;
+  }
 
-    &__title {
-        text-decoration: underline $primary-pink;
-    }
+  &__subheading {
+    text-align: center;
+    color: $black;
+  }
 
-    &__subheading {
-        text-align: left;
-    }
+  &__img {
+    width: 86vw;
+  }
 
-    &__img {
-        width: 90vw;
-    }
+  &__text {
+    color: $black;
+  }
+
+  &__tech-stack {
+    font-weight: bold;
+    text-decoration: underline $primary-pink;
+  }
+
+  &__stack-info {
+    border: #ee29b9 1px solid;
+  }
+
+  &__video {
+    width: 86vw;
+    margin-bottom: 1rem;
+  }
+}
+
+.individual-project {
+    border: $black 1px solid;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+
+  
 }

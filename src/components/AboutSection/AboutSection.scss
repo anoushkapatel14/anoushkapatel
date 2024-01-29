@@ -1,2 +1,9 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+.about {
+
+    &__title {
+        border: $primary-pink 5px solid;
+    }
+}
