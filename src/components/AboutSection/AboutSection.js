@@ -4,7 +4,8 @@ import "./AboutSection.scss";
 export default function AboutSection() {
   return (
     <>
-      <section className="about">
+      <section id="about"
+      className="about">
         <div className="about__wrap">
           <article className="about__article">
         <h1 className="about__title">About Me</h1>
@@ -22,7 +23,7 @@ export default function AboutSection() {
 
         <p className="about__text">
           My career pivot showcases adaptability and a love for lifelong
-          learning. As a past teacher, my forte lies in soft skills:
+          learning. As a former teacher, my forte lies in soft skills:
           communication, teamwork, and problem-solving.
         </p>
 

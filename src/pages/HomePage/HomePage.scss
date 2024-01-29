@@ -8,13 +8,21 @@
   color: $black;
   text-align: center;
 
-
   &__title {
     font-size: 2.7rem;
     margin-bottom: 0rem;
     margin-top: 3rem;
-  }
+    text-align: center;
 
+    @include tablet {
+      font-size: 4rem;
+    }
+
+    @include desktop {
+      font-size: 5rem;
+      margin-top: 4rem;
+    }
+  }
 
   &__accent {
     color: $primary-pink;
@@ -27,16 +35,38 @@
     text-decoration-thickness: 0.2rem;
     font-size: 2rem;
 
+    @include tablet {
+      font-size: 2.75rem;
+      text-decoration-thickness: 0.4rem;
+    }
+
+    @include desktop {
+      font-size: 3.25rem;
+    }
   }
 
   &__and {
     margin: 0;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+    @include desktop {
+      font-size: 2.5rem;
+    }
   }
 
   &__job-secondary {
     margin-top: 0rem;
     margin-bottom: 2rem;
 
+    @include tablet {
+      font-size: 2rem;
+    }
+
+    @include desktop {
+      font-size: 2.5rem;
+    }
   }
 
   &__emoji {

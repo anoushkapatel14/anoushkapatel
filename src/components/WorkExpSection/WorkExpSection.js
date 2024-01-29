@@ -2,7 +2,8 @@ import "./WorkExpSection.scss";
 
 export default function WorkExpSection() {
   return (
-    <section className="work-exp">
+    <section id="work-exp"
+    className="work-exp">
       <div className="work-exp__wrap">
 
         <article className="previous-roles">
@@ -22,24 +23,20 @@ export default function WorkExpSection() {
             <p className="previous-roles__text">
               {" "}
               🎓 Teaching Excellence: Inspired and empowered 500 young minds
-              (ages 11-18) in the dynamic world of Music at a high-achieving
-              grammar school in North London.
+              (ages 11-18) in the dynamic world of Music.
             </p>
             <p className="previous-roles__text">
-              👩‍🏫 Leadership Dynamo: Orchestrated a harmonious team of 15
-              teachers, handling everything from recruitment to timetabling,
-              fostering positive parent/carer interactions, managing finances,
-              and championing professional development.
+              👩‍🏫 Leadership: Orchestrated a team of 15 teachers.
             </p>
             <p className="previous-roles__text">
               🌍 Champion of Diversity and Equity: Spearheaded comprehensive
               staff training on diversity and racial equity, ensuring an
-              inclusive and supportive educational environment for all.
+              inclusive and supportive environment for all.
             </p>
             <p className="previous-roles__text">
               🚀 Teacher Development Guru: Nurtured emerging talents through
               tailored training sessions, addressing individual improvement
-              areas to elevate the overall teaching standard.
+              areas.
             </p>
 
             <p className="previous-roles__text">
@@ -52,7 +49,7 @@ export default function WorkExpSection() {
               🎶 Concert Virtuoso: Directed and curated a spectacular concert
               series, from securing venues to meticulous event budgeting;
               collaborated seamlessly with staff, parents, and pupils;
-              orchestrated rehearsal schedules for a flawless performance.
+              orchestrated rehearsal schedules for flawless performances.
             </p>
 
             <p className="previous-roles__text">
@@ -76,21 +73,20 @@ export default function WorkExpSection() {
           <div className="previous-roles__div">
             <h3 className="previous-roles__subheading">Responsibilities</h3>
             <p className="previous-roles__text">
-              🎶 Music Maestro: Guided students aged 11-18 in the art of music,
+              🎶 Music Maestro: Guided students aged 11-18 in the art of Music,
               achieving outstanding GCSE and A-Level results.
             </p>
             <p className="previous-roles__text">
               👩‍🏫 Leadership Virtuoso: Managed and led a team of three music
               teachers, overseeing a highly successful and accomplished music
-              department in a thriving mixed comprehensive school in North
-              London.
+              department in a thriving mixed comprehensive school.
             </p>
             <p className="previous-roles__text">
               🎤 Concert Conductor: Orchestrated the school's captivating
               concert series, ensuring memorable and successful musical events.
             </p>
             <p className="previous-roles__text">
-              👥 Form Tutor Extraordinaire: Served as a dedicated form tutor for
+              👥 Form Tutor: Served as a dedicated form tutor for
               a Year 7 class, acting as the first point of contact for pastoral
               issues. Built strong relationships with both the students and
               their parents, fostering a supportive and nurturing environment.
@@ -117,7 +113,7 @@ export default function WorkExpSection() {
               enriching educational experiences.
             </p>
             <p className="previous-roles__text">
-              🎭 Musical Director: Orchestrated three school musicals, managing
+              🎭 Musical Director: Conducted three school musicals, managing
               a large group of students and teachers. Conducted the show for
               three evening performances in front of key stakeholders, parents,
               staff, and students.

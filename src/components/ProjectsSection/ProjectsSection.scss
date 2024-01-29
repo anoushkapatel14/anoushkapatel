@@ -40,7 +40,7 @@
     font-weight: bold;
     text-decoration: underline $primary-pink;
     font-size: 1.2rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     margin-top: 0;
 
   }
@@ -50,8 +50,14 @@
     color: $white;
     background-color: $primary-pink;
     border-radius: 1rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
     margin-top: 0;
+    width: 70vw;
+
+    @include tablet {
+        width: 50vw;
+        text-align: center;
+    }
 
 
   }
@@ -61,6 +67,14 @@
     margin-bottom: 1rem;
     border-radius: 1rem;
   }
+}
+
+.tech-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    // @include tablet
 }
 
 .individual-project {
