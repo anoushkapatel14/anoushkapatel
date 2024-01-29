@@ -2,6 +2,8 @@
 @use "../../styles/partials/mixins" as *;
 
 .work-exp {
+    margin-bottom: 2rem;
+
   &__wrap {
     background-color: $primary-pink;
     display: flex;
@@ -9,6 +11,14 @@
     padding: 2rem 1rem;
     border-radius: 1.5rem;
     align-self: stretch;
+  }
+
+  &__title {
+    text-align: center;
+    text-decoration: underline $primary-pink;
+    font-size: 2rem;
+    margin-bottom: 0;
+
   }
 }
 
@@ -40,7 +50,6 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
     letter-spacing: .12rem;
     margin: 0;
   }
@@ -51,8 +60,12 @@
     font-size: .9rem;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
-    letter-spacing: .12rem;
     margin: 0;
   }
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

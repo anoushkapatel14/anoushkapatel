@@ -1,10 +1,9 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.about {
-    margin-bottom: 2rem;
+.contact {
 
-&__wrap {
+  &__wrap {
     background-color: $primary-pink;
     display: flex;
     flex-direction: column;
@@ -12,10 +11,11 @@
     border-radius: 1.5rem;
     align-self: stretch;
   }
-
+  
   &__article {
     display: flex;
     justify-content: center;
+    gap: 0.625rem;
     align-self: stretch;
     border-radius: 1rem;
     background: $white;
@@ -23,20 +23,12 @@
     flex-direction: column;
     margin-bottom: 1rem;
     padding: 0.5rem;
+
   }
 
-    &__title {
-        text-decoration: underline $primary-pink;
-        font-size: 2rem;
-        margin-bottom: 0;
-    }
-
-    &__subheading {
-        font-size: 1.2rem;
-    }
-
-    &__text {
-        margin-bottom: 0.75rem;
-        margin-top: 0.75rem;
-    }
+  &__title {
+    text-align: center;
+    text-decoration: underline $primary-pink;
+    font-size: 2rem;
+    margin-bottom: 0;  }
 }

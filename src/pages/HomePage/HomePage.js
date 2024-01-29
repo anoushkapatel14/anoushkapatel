@@ -1,4 +1,5 @@
 import AboutSection from "../../components/AboutSection/AboutSection";
+import ContactSection from "../../components/ContactSection/ContactSection";
 import ProjectsSection from "../../components/ProjectsSection/ProjectsSection";
 import WorkExpSection from "../../components/WorkExpSection/WorkExpSection";
 import "./HomePage.scss";
@@ -12,9 +13,13 @@ export default function HomePage() {
         <h2 className="main__and">&</h2>
         <h2 className="main__job-secondary">Former Director of Music</h2>
 
+        <p className="main__emoji">👩🏾‍🏫</p>
+
 <AboutSection />
         <ProjectsSection />
         <WorkExpSection />
+
+        <ContactSection />
       </main>
     </>
   );

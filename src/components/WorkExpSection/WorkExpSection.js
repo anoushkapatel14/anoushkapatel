@@ -4,10 +4,11 @@ export default function WorkExpSection() {
   return (
     <section className="work-exp">
       <div className="work-exp__wrap">
-        <h2 className="work-exp__title">Previous Roles</h2>
 
         <article className="previous-roles">
+          <h2 className="work-exp__title">Previous Roles</h2>
           <div className="previous-roles__div">
+
             <h3 className="previous-roles__subheading">Role:</h3>
             <p className="previous-roles__text">Director of Music</p>
             <p className="previous-roles__text">

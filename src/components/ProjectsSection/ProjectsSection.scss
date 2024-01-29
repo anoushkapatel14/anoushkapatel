@@ -2,44 +2,79 @@
 @use "../../styles/partials/mixins" as *;
 
 .projects {
+    margin-bottom: 2rem;
+
+&__wrap {
+    background-color: $primary-pink;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+    align-self: stretch;
+}
+
   &__title {
     text-decoration: underline $primary-pink;
+    font-size: 2rem;
+    margin-bottom: 0;
   }
 
   &__subheading {
     text-align: center;
     color: $black;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
   }
 
   &__img {
-    width: 86vw;
+    width: 78vw;
+    border-radius: 1rem;
   }
 
   &__text {
     color: $black;
+    margin-top: 0;
   }
 
   &__tech-stack {
     font-weight: bold;
     text-decoration: underline $primary-pink;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+
   }
 
   &__stack-info {
     border: #ee29b9 1px solid;
+    color: $white;
+    background-color: $primary-pink;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0;
+
+
   }
 
   &__video {
-    width: 86vw;
+    width: 78vw;
     margin-bottom: 1rem;
+    border-radius: 1rem;
   }
 }
 
 .individual-project {
-    border: $black 1px solid;
     padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 1rem;
+    background: $white;
+    box-shadow: 0 4px 4px #00000040;
+    flex-direction: column;
+    margin-bottom: 1rem;
 
 
   

@@ -1,22 +1,27 @@
 import { Link } from "react-router-dom";
 import "./ProjectsSection.scss";
 import youchoose from "../../assets/images/youchoose.png";
-import claire from "../../assets/images/claire-homepage.png";
 import youchooseVideo from "../../assets/videos/youchoose.mp4";
 import claireHome from "../../assets/images/claire-home.png";
 
 export default function ProjectsSection() {
   return (
     <section className="projects">
-      <h1 className="projects__title">Projects</h1>
+        <div className="projects__wrap">
+
       <article className="individual-project">
+
+      <h1 className="projects__title">Projects</h1>
+        
+        <Link to="https://github.com/anoushkapatel14/anoushka-patel-capstone">
+          <img className="projects__img" src={youchoose} alt="youchoose demo" />
+        </Link>
+
         <Link to="https://github.com/anoushkapatel14/anoushka-patel-capstone">
           {" "}
           <h2 className="projects__subheading">YouChoose</h2>
         </Link>
-        <Link to="https://github.com/anoushkapatel14/anoushka-patel-capstone">
-          <img className="projects__img" src={youchoose} alt="youchoose demo" />
-        </Link>
+
         <p className="projects__text">
           Welcome to YouChoose - the film selection app you didn’t know you
           needed! Two users with linked accounts are shown the same films. Users
@@ -62,6 +67,7 @@ export default function ProjectsSection() {
         </Link>
 
       </article>
+      </div>
     </section>
   );
 }
